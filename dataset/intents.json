@@ -1,0 +1,230 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "hii",
+                "helo",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "hello aura",
+                "hey aura"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hi! I am AURA. What can I do for you?",
+                "Hey! Nice to talk to you.",
+                "Hello! I am ready to assist you."
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later",
+                "exit",
+                "quit",
+                "close",
+                "good night"
+            ],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "See you later!",
+                "Bye! Take care.",
+                "Goodbye! It was nice talking to you."
+            ]
+        },
+
+        {
+            "tag": "time",
+            "patterns": [
+                "what is the time",
+                "tell me the time",
+                "current time",
+                "what time is it",
+                "can you tell me the time",
+                "tell me current time"
+            ],
+            "responses": [
+                "Let me check the current time for you.",
+                "Sure, I can help you with the current time."
+            ]
+        },
+
+        {
+            "tag": "date",
+            "patterns": [
+                "what is today's date",
+                "tell me today's date",
+                "what date is today",
+                "current date",
+                "today's date",
+                "tell me the date"
+            ],
+            "responses": [
+                "Let me check today's date for you.",
+                "Sure, I can help you with today's date."
+            ]
+        },
+
+        {
+            "tag": "open_website",
+            "patterns": [
+                "open youtube",
+                "open google",
+                "open github",
+                "open gmail",
+                "open website",
+                "launch youtube",
+                "open google website",
+                "open github website"
+            ],
+            "responses": [
+                "Sure, I will open it for you.",
+                "Okay, opening the website for you."
+            ]
+        },
+
+        {
+            "tag": "calculator",
+            "patterns": [
+                "calculate",
+                "calculate 10 plus 20",
+                "what is 25 plus 30",
+                "solve this calculation",
+                "do a calculation",
+                "calculate this",
+                "solve this"
+            ],
+            "responses": [
+                "Sure, I can calculate that for you.",
+                "Okay, let me calculate it for you."
+            ]
+        },
+
+        {
+            "tag": "search",
+            "patterns": [
+                "search for NLP",
+                "search on google",
+                "find information about artificial intelligence",
+                "search information",
+                "look this up",
+                "search this",
+                "search on internet",
+                "find information"
+            ],
+            "responses": [
+                "Sure, I will search for that.",
+                "Okay, I will look that up for you."
+            ]
+        },
+
+        {
+            "tag": "nlp_question",
+            "patterns": [
+                "what is NLP",
+                "what is nlp",
+                "what is natural language processing",
+                "explain NLP",
+                "explain nlp",
+                "tell me about NLP",
+                "define natural language processing",
+                "what does NLP mean",
+                "how does NLP work",
+                "why is NLP important",
+                "where is NLP used"
+            ],
+            "responses": [
+                "NLP stands for Natural Language Processing. It is a branch of artificial intelligence that helps computers understand, process, and respond to human language.",
+                "Natural Language Processing allows computers to work with human language. It is used in chatbots, voice assistants, translation systems, and sentiment analysis.",
+                "NLP is a field of AI that helps machines understand text and speech. AURA uses NLP to understand your commands and identify your intent.",
+                "NLP is important because it allows humans to communicate with computers using natural language instead of only programming languages."
+            ]
+        },
+
+        {
+            "tag": "sentiment_positive",
+            "patterns": [
+                "I am happy",
+                "I feel great",
+                "I am feeling good",
+                "I am very happy",
+                "today is a great day",
+                "I am excited",
+                "I am feeling awesome",
+                "I am feeling wonderful"
+            ],
+            "responses": [
+                "That's wonderful to hear! Keep smiling.",
+                "I'm glad you're feeling positive.",
+                "That's great! Keep that positive energy.",
+                "Awesome! I am happy to hear that."
+            ]
+        },
+
+        {
+            "tag": "sentiment_negative",
+            "patterns": [
+                "I am sad",
+                "I feel bad",
+                "I am feeling sad",
+                "I am upset",
+                "I am not feeling good",
+                "I feel terrible",
+                "I am unhappy",
+                "I am stressed"
+            ],
+            "responses": [
+                "I'm sorry you're feeling this way.",
+                "I hope things get better soon. I'm here to help.",
+                "It's okay to have difficult moments. Take care of yourself.",
+                "I am here if you want to talk."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thank you aura",
+                "that's helpful",
+                "thanks for helping",
+                "thank you so much",
+                "thanks aura"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!",
+                "You're very welcome."
+            ]
+        },
+
+        {
+            "tag": "who_are_you",
+            "patterns": [
+                "who are you",
+                "what are you",
+                "tell me about yourself",
+                "what is your name",
+                "who is aura",
+                "what can you do",
+                "tell me about aura"
+            ],
+            "responses": [
+                "I am AURA, an intelligent voice assistant built using Natural Language Processing.",
+                "My name is AURA. I can understand user commands using NLP and provide suitable responses.",
+                "I am AURA, your NLP-based voice assistant. I can process text, detect intent, and respond to your commands."
+            ]
+        }
+    ]
+}
