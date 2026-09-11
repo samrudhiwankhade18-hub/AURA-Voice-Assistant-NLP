@@ -1,0 +1,6 @@
+nltk
+scikit-learn
+pyaudiowpatch
+SpeechRecognition
+pyttsx3
+
